@@ -30,7 +30,7 @@
 
       // recalculate x position
       if (outer_width > window_width) {
-        absolute_x = Math.floor(window_width - outer_width / 2);
+        absolute_x = Math.floor((window_width - outer_width) / 2);
       }
       else if (left_offset < 0) {
         absolute_x = 0;
