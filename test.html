@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Test fitIntoViewport jQuery plugin
+  </title>
+  <style>
+    body {
+      background : blue;
+    }
+
+    #outer {
+      position   : absolute;
+      top        : 100px;
+      left       : 100px;
+      width      : 500px;
+      height     : 300px;
+      background : red;
+    }
+
+    #inner {
+      position   : absolute;
+      top        : 50px;
+      left       : 50px;
+      width      : 600px;
+      height     : 200px;
+      background : green;
+      border     : 1px solid white;
+    }
+  </style>
+  <script src="jquery-2.1.1.min.js"></script>
+  <script src="jquery.fitintoviewport.js"></script>
+</head>
+<body>
+  <div id="outer">
+    <div id="inner">
+    </div>
+  </div>
+</body>
+</html>
